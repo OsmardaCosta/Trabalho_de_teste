@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: sans-serif;
+}
+
+header{
+   background-color: rgb(255, 255, 255); 
+   border-bottom: 1px solid black;
+   height: 80px;
+}
+
+.log{
+  padding: 10px; 
+  color: #000000;
+  font-family: bebas neue;
+  padding-left: 25px;
+  padding-top: 22px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -36px;
+    margin-left: -400px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #333232;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    transition-duration: .3s;
+}
+
+.input{
+    display: flex;
+    justify-content: right;
+    margin-right: 300px;
+    margin-top:-28px ;
+}
+
+.pesquisa{
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: #ededed;
+    border: none;
+    width: 250px;
+
+}
+
+.pesquisa::placeholder{
+    color: rgba(0, 0, 0, 0.286);
+}
+
+ .input:i{
+    color: #000;
+}
+
+.icon{
+    color: #000;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: right;
+    margin-top: -32px;
+    margin-right: 26px;
+    border-left-width: 200px;
+}
+
+.entrar{
+    padding: 7px;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.entrar a {
+    color: #fff;
+}
+
+.entrar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .2s;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.442) ;
+}
+
+.cadastro{
+    padding: 7px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.cadastro a{
+    color: #fff;
+}
+
+.cadastro:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .2s;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.442) ;
+}
+
+.ent{
+    padding-right: 14px;
+}
+
